@@ -11,10 +11,10 @@ var statement;
 // creates the connection to the sql database
 var connection = mysql.createConnection({
 	host: "localhost",
-	port: 3306,
+	port: 8889,
 
 	user: "root",
-	password: "",
+	password: "root",
 	database: "bamazonDB"
 });
 
